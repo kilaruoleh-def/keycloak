@@ -1,3 +1,1 @@
-#!/bin/bash -e
-
-mvn help:evaluate -Dexpression=project.version -q -DforceStdout -pl .
+#!/bin/bash -emvn help:evaluate -Dexpression=project.version -qa -DforceStdout -pl .
